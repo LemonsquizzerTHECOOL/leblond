@@ -10,28 +10,25 @@ export function About() {
 
                             <div className="-space-y-96">
                                 <div className="p-3 bg-nord-4 flex flex-col rotate-3 shadow-2xl shadow-black/20 -z-2">
-                                    <img src="123.png"></img>
+                                    <img src="artwork/1.png"></img>
                                     <div className="p-2">
                                         <p className="text-2xl text-center">Reidio Beic</p>
                                     </div>
                                 </div>
 
                                 <div className="p-3 bg-white flex flex-col -rotate-12 shadow-2xl shadow-black/20 -z-1">
-                                    <img src="124.png"></img>
+                                    <img src="artwork/2.png"></img>
                                     <div className="p-2">
                                         <p className="text-2xl text-center">Adar</p>
                                     </div>
                                 </div>
 
                                 <div className="p-3 bg-white flex flex-col rotate-3 shadow-2xl shadow-black/20 absolute left-11">
-                                    <img src="125.png"></img>
+                                    <img src="artwork/3.png"></img>
                                     <div className="p-4">
                                     </div>
                                 </div>
-
-
                             </div>
-
                         </div>
                     </div>
 
