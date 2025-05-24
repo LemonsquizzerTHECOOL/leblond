@@ -1,12 +1,12 @@
-import { Facebook, Instagram, Palette, Book, Home, Coffee, Heart } from "lucide-react";
+import { Coffee } from "lucide-react";
 
 export function About() {
     return (
-        <div className="bg-nord-4 relative">
+        <div className="dark:bg-nord-0 relative">
             <div className="max-w-6xl mx-auto px-6 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-start h-full ">
                     <div className="relative group hidden lg:block">
-                        <div className="relative bg-nord-4 p-6">
+                        <div className="relative dark:bg-nord-0 p-6">
                             <div className="-space-y-96">
                                 <div className="p-3 bg-nord-4 flex flex-col rotate-3 shadow-2xl shadow-black/20 -z-2">
                                     <img src="artwork/1.png"></img>
@@ -32,7 +32,7 @@ export function About() {
                     </div>
 
                     <div className="space-y-8">
-                        <div className="bg-nord-4">
+                        <div className="dark:bg-nord-0">
                             <div className="flex items-center gap-6 mb-8 pb-6">
                                 <img
                                     src="Bwthyn21.png"
@@ -40,12 +40,12 @@ export function About() {
                                     className="w-24 h-24"
                                 />
                                 <div>
-                                    <h2 className="text-3xl font-light text-nord-2 mb-2">About me</h2>
+                                    <h2 className="text-3xl font-light text-nord-2 mb-2 dark:text-nord-10">About me</h2>
                                     <p className="text-slate-500 text-sm">Artist & Illustrator</p>
                                 </div>
                             </div>
 
-                            <div className="prose prose-lg text-nord-2 leading-relaxed space-y-4 font-serif">
+                            <div className="prose prose-lg text-nord-2 dark:text-nord-4 leading-relaxed space-y-4 font-serif">
                                 <p>
                                     I am a French-Québécois artist living in Wales since 2007. I grew up in Angers, France, and moved to this beautiful country after graduating with a literature degree in Nantes. I live in Aberystwyth with my four sons and a cat. I have a studio at home where I paint while listening to French radio and drinking tea.
                                 </p>

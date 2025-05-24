@@ -1,8 +1,6 @@
-import { Paperclip } from "lucide-react";
-
 export function Contact() {
     return (
-        <div className="bg-gray-100 my-36">
+        <div className="bg-nord-4 dark:bg-nord-0 my-36 dark:text-nord-4">
             <div className="p-5 flex flex-col gap-4 items-center">
                 <h2 className="text-2xl font-bold text-center font-serif">
                     Contact Me
@@ -16,15 +14,15 @@ export function Contact() {
                     <div className="max-w-lg mx-auto">
                         <form className="space-y-4">
                             <div>
-                                <label htmlFor="name" className="block text-gray-700 mb-2">Name</label>
+                                <label htmlFor="name" className="block mb-2">Name</label>
                                 <input type="text" id="name" className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500" />
                             </div>
                             <div>
-                                <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
+                                <label htmlFor="email" className="block mb-2">Email</label>
                                 <input type="email" id="email" className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500" />
                             </div>
                             <div>
-                                <label htmlFor="message" className="block text-gray-700 mb-2">Message</label>
+                                <label htmlFor="message" className="block mb-2">Message</label>
                                 <textarea id="message" rows={4} className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500"></textarea>
                             </div>
                             <button type="submit" className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors">

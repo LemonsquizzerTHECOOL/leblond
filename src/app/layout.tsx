@@ -1,8 +1,8 @@
 import "~/valeriane/styles/globals.css";
-
 import { type Metadata } from "next";
 import { Geist } from "next/font/google";
 import { Zain } from "next/font/google";
+import { ThemeProvider } from "next-themes";
 
 export const metadata: Metadata = {
   title: "Valeriane's home page",
@@ -25,8 +25,12 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable} ${zain.variable}`}>
-      <body>{children}</body>
+    <html lang="en" className={`${geist.variable} ${zain.variable}`} suppressHydrationWarning>
+      <body>
+        <ThemeProvider attribute="data-theme">
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

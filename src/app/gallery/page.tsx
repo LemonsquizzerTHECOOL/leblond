@@ -3,9 +3,9 @@ import { Navbar } from "~/valeriane/components/Navbar";
 
 export default function Gallery() {
     return (
-        <main>
+        <main className="dark:bg-nord-0">
             <Navbar></Navbar>
-            <div className="grid grid-cols-6 auto-rows-[200px] gap-4 p-8">
+            <div className="grid grid-cols-6 auto-rows-[200px] gap-4 p-8 dark:bg-nord-0">
                 <Artwork
                     name="Piece de resistance"
                     desc="toiler"
@@ -49,28 +49,6 @@ export default function Gallery() {
                     colSpan={2}
                     rowSpan={2}
                 />
-                <Artwork
-                    name="4"
-                    desc="vertical"
-                    image="8.jpg"
-                    colSpan={2}
-                    rowSpan={1}
-                />
-                <Artwork
-                    name="4"
-                    desc="vertical"
-                    image="9.jpg"
-                    colSpan={2}
-                    rowSpan={1}
-                />
-                <Artwork
-                    name="4"
-                    desc="vertical"
-                    image="10.jpg"
-                    colSpan={1}
-                    rowSpan={2}
-                />
-
             </div>
         </main>
     );
