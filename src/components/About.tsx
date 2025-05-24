@@ -2,7 +2,7 @@ import { Facebook, Instagram, Palette, Book, Home, Coffee, Heart } from "lucide-
 
 export function About() {
     return (
-        <div className="min-h-screen bg-nord-4 relative overflow-hidden">
+        <div className="bg-nord-4 relative">
             <div className="max-w-6xl mx-auto px-6 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-start h-full ">
                     <div className="relative group hidden lg:block">
