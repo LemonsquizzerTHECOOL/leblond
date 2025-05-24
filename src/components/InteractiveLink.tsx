@@ -12,7 +12,7 @@ export function InteractiveLink({ text, url }: LinkProps) {
         <>
             <a
                 href={url}
-                className="text-nord-2 text-2xl relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-0 after:bg-current after:transition-all hover:after:w-full font-serif"
+                className="text-nord-2 text-2xl relative transform transition-transform hover:translate-x-2 font-serif"
             >
                 {text}
             </a>
