@@ -1,6 +1,6 @@
 export function Contact() {
     return (
-        <div className="bg-nord-4 dark:bg-nord-0 my-36 dark:text-nord-4">
+        <div className="bg-nord-4 dark:bg-nord-0 my-36 dark:text-nord-4 p-4 bg-gradient-to-b from-nord-0/20 dark:to-slate-900 to-white">
             <div className="p-5 flex flex-col gap-4 items-center">
                 <h2 className="text-2xl font-bold text-center font-serif">
                     Contact Me
